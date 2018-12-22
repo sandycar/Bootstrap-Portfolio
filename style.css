@@ -1,0 +1,54 @@
+
+/*index page*/
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.header {
+	font-family:'Georgia', Times, Times New Roman, serif;
+	background-color: green;
+	border:1px solid #cccccc;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+/*.menu {
+	float:right;
+	margin-right: 100px;
+	margin-top: 10px;
+}*/
+
+/*.name {
+	margin-left: 135px;
+	width: 50%;
+
+}*/
+
+.nav {
+	padding-left: 3px;
+	margin-right: 10px;
+}
+
+.bio {
+	width: 80%;
+	border: 1px solid #cccccc;
+	margin: 0 auto;
+
+
+}
+
+.text {
+	float: left;
+}
+
+.picture {
+	float:left;
+	
+}
+p {
+	
+}
+
+/*about me page*/
