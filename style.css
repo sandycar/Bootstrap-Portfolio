@@ -2,16 +2,27 @@
 /*index page*/
 body{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url(./assets/prism/prism.png);
+
+	
 
 }
 
+/*@media screen and (max-width: 300px) {*/
+}
+.mainheader{
+	border-bottom: 3px solid #777777;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
 .header {
 	font-family:'Georgia', Times, Times New Roman, serif;
-	background-color: green;
+	background-color: #4aaaa5;
 	border:1px solid #cccccc;
 	padding: 10px;
 	text-align: center;
 	color: white;
+
 }
 
 /*.menu {
@@ -28,14 +39,30 @@ body{
 
 .nav {
 	padding-left: 3px;
+	padding-top:10px;
 	margin-right: 10px;
+	text-align: center;
+}
+
+.navdetails{
+	color: #777777;
 }
 
 .bio {
-	width: 80%;
-	border: 1px solid #cccccc;
-	margin: 0 auto;
+	width: 90%;
+	margin-right: 10px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	color: #4aaaa5;
 
+
+
+}
+.mainbody{
+	border-radius: 5px;
+	background: white;
+	padding:20px;
+	margin-right:50px;
 
 }
 
@@ -45,10 +72,38 @@ body{
 
 .picture {
 	float:left;
+	width: 200px;
+	height:250px;
+	border:solid black;
+	border-radius: 10px;
 	
 }
+
+.container{
+	width: 960px;
+}
+
+hr {
+	border-bottom: 3px solid grey;
+	width: 960px;
+	margin-bottom:30px;
+}
 p {
+	margin-right:10px;
+	padding-left:225px;
+
 	
+}
+
+footer{
+	text-align: center;
+	background: beige;
+	color: grey;
+	border-top:2px solid grey;
+	font-size: 9px;
+	margin-right:0px
+	margin-left0px;
+	border-top: 8px solid #4aaaa5;
 }
 
 /*about me page*/
