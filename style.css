@@ -8,7 +8,10 @@ body{
 
 }
 
-/*@media screen and (max-width: 300px) {*/
+@media screen and (max-width: 600px) {
+	body {
+		float: none;
+	}
 }
 .mainheader{
 	border-bottom: 3px solid #777777;
@@ -94,7 +97,10 @@ p {
 
 	
 }
-
+form {
+	background: white;
+	padding: 20px;
+}
 footer{
 	text-align: center;
 	background: beige;
