@@ -37,6 +37,12 @@ body{
 	}	
 }
 
+@media (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+}
+
 /*@media (max-width: 768px) {
 	.bio {
 		width:100%;
@@ -51,7 +57,6 @@ body{
 .mainheader{
 	border-bottom: 3px solid #777777;
 	margin-bottom: 20px;
-	margin-top: 20px;
 	margin-left:50px;
 }
 .header {
@@ -83,8 +88,12 @@ body{
 	text-align: center;
 }
 
+.text-center{
+
+}
 .navdetails{
 	color: #777777;
+	text-align:center;
 }
 
 .bio {
@@ -118,9 +127,70 @@ body{
 	border-radius: 10px;
 	
 }
+.portfolioimg {
+	float:left;
+	width: 250px;
+	height: 200px;
+	border-radius: 10px;
+	z-index: -1;
+}
 
-.container{
+.container {
+	position: relative;
 	width: 960px;
+	text-align: center;
+	padding: 20px;
+}
+
+.wordGuess {
+	position: absolute;
+	top:150px;
+	left: 15px;
+	padding-right:48px;
+	padding-left: 65px;
+	background-color: black;
+	color: white;
+
+}
+
+.rpgGame {
+	position: absolute;
+	top:150px;
+	left: 15px;
+	padding-right:90px;
+	padding-left: 77px;
+	background-color: black;
+	color: white;
+}
+
+.infoWidget {
+	position: absolute;
+	top:150px;
+	left: 15px;
+	padding-right:48px;
+	padding-left: 65px;
+	background-color: black;
+	color: white;
+}
+
+.triviaGame {
+	position: absolute;
+	top:150px;
+	left: 15px;
+	padding-right:48px;
+	padding-left: 65px;
+	background-color: black;
+	color: white;
+}
+
+.rockpaperScissors {
+	position: absolute;
+	top:150px;
+	left: 15px;
+	padding-right:48px;
+	padding-left: 65px;
+	background-color: black;
+	color: white;
 }
 
 hr {
